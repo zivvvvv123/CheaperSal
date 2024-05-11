@@ -1,0 +1,38 @@
+const urlsToVisit = [
+  {
+    url: "https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%A0%D7%99%D7%A7%D7%99%D7%95%D7%9F-%D7%94%D7%91%D7%99%D7%AA-%D7%95%D7%97%D7%93-%D7%A4%D7%A2%D7%9E%D7%99/c/A34?shuf_source=shufersal_icon_dy&shuf_medium=iconA&shuf_campaign=clean&shuf_content=shufersal_clean_270623&shuf_term=dy",
+    name: "cleaning",
+  },
+  {
+    url: "https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%97%D7%9C%D7%91-%D7%95%D7%91%D7%99%D7%A6%D7%99%D7%9D/c/A01?shuf_source=shufersal_icon_dy&shuf_medium=iconA&shuf_campaign=milk&shuf_content=shufersal_milk_270623&shuf_term=dy",
+    name: "dairy",
+  },
+  {
+    url: "https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%95%D7%99%D7%A8%D7%A7%D7%95%D7%AA/c/A04?shuf_source=shufersal_icon_dy&shuf_medium=iconA&shuf_campaign=yrp&shuf_content=shufersal_yrp_270623&shuf_term=dy",
+    name: "fruits and vegetables",
+  },
+  {
+    url: "https://www.shufersal.co.il/online/he/A07?shuf_source=shufersal_icon_dy&shuf_medium=iconA&shuf_campaign=meat&shuf_content=shufersal_meat_270623&shuf_term=dy",
+    name: "meat",
+  },
+  {
+    url: "https://www.shufersal.co.il/online/he/A10?shuf_source=shufersal_icon_dy&shuf_medium=iconA&shuf_campaign=bakery&shuf_content=shufersal_bakery_270623&shuf_term=dy",
+    name: "baking",
+  },
+  {
+    url: "https://www.shufersal.co.il/online/he/A13?shuf_source=shufersal_icon_dy&shuf_medium=iconA&shuf_campaign=drinks&shuf_content=shufersal_drinks_270623&shuf_term=dy",
+    name: "drinks",
+  },
+  {
+    url: "https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%91%D7%99%D7%A9%D7%95%D7%9C-%D7%90%D7%A4%D7%99%D7%94-%D7%95%D7%A9%D7%99%D7%9E%D7%95%D7%A8%D7%99%D7%9D/c/A22?shuf_source=shufersal_icon_dy&shuf_medium=iconA&shuf_campaign=cooking&shuf_content=shufersal_cooking_270623&shuf_term=dy",
+    name: "cooking and canned food",
+  },
+  {
+    url: "https://www.shufersal.co.il/online/he/%D7%A7%D7%98%D7%92%D7%95%D7%A8%D7%99%D7%95%D7%AA/%D7%A1%D7%95%D7%A4%D7%A8%D7%9E%D7%A8%D7%A7%D7%98/%D7%97%D7%98%D7%99%D7%A4%D7%99%D7%9D-%D7%9E%D7%AA%D7%95%D7%A7%D7%99%D7%9D-%D7%95%D7%93%D7%92%D7%A0%D7%99-%D7%91%D7%95%D7%A7%D7%A8/c/A25?shuf_source=shufersal_icon_dy&shuf_medium=iconA&shuf_campaign=snacks&shuf_content=shufersal_snacks_270623&shuf_term=dy",
+    name: "snacks",
+  },
+  {
+    url: "https://www.shufersal.co.il/online/he/A31?shuf_source=shufersal_icon_dy&shuf_medium=iconA&shuf_campaign=pharm&shuf_content=shufersal_pharm_270623&shuf_term=dy",
+    name: "baby_stuff",
+  },
+];
